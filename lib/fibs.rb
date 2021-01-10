@@ -3,7 +3,7 @@ def fibs(num)
     num
   else
     i = 1
-    nums = [1, 1]
+    nums = [0, 0]
     fibs = 1
     while i < num
       nums = [nums[1], fibs]
