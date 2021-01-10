@@ -1,9 +1,5 @@
 def fibs(num)
-  if num < 2
-    num
-  else
-    num = fibs(num-2) + fibs(num-1)
-  end
+  num < 2 ? num : num = fibs(num-2) + fibs(num-1)
 end
 
 puts "Fibs(0): #{fibs(0)}"
